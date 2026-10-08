@@ -1,0 +1,25 @@
+{
+    "retrieval_evaluation": {
+        "Recall@5": 0.7183333333333334,
+        "Recall@10": 0.7933333333333334,
+        "MRR@10": 0.5968174603174604,
+        "nDCG@10": 0.6337679562334041
+    },
+    "generation_evaluation": {
+        "total_queries_evaluated": 100,
+        "status_distribution": {
+            "ANSWERED": 36,
+            "INSUFFICIENT_EVIDENCE": 43,
+            "CONFLICTING_EVIDENCE": 21
+        },
+        "citation_metrics": {
+            "answers_with_citations": 56,
+            "citation_rate": 0.56
+        },
+        "latency_ms": {
+            "avg_retrieval_time": 4430.81,
+            "avg_generation_time": 4005.78,
+            "avg_total_time": 8436.59
+        }
+    }
+}
